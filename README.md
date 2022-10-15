@@ -98,3 +98,12 @@ $ yarn add -D prettier eslint-plugin-tailwindcss eslint-config-prettier
 cssファイル内でpostcss構文を対応
 ### Tailwind CSS IntelliSense
 Tailwind構文をサジェストしてくれます
+
+
+
+# Next.js+TypeScript+CSS Modules+SCSS環境
+> https://zenn.dev/noonworks/scraps/61091d5a367487
+
+```
+npm install sass --save-dev
+```
