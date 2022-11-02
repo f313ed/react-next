@@ -1,6 +1,11 @@
+/**
+ * 参考: Type 'IterableIterator<[number, number]>' is not an array type …
+ * https://qiita.com/pione30/items/70e52691386717634358
+ */
 {
   "compilerOptions": {
     "target": "es5",
+    "downlevelIteration": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
